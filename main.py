@@ -7,7 +7,7 @@ def check_character(word, index):
     elif char.isspace() == True:
         return "white space"
     else:
-        return "unkown"
+        return "unknown"
      
 if __name__ == "__main__":
     print(check_character('happy birthday', 2))
